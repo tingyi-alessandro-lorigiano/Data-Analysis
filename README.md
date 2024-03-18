@@ -9,8 +9,8 @@ Able to download options data for any ticker in
 Nasdaq and NYSE.
 
 Data available:   
-        Intraday Option Volume,
-	      Historical Implied Volatility,
+Intraday Option Volume,
+Historical Implied Volatility,
 		    Historical Volume,
 			  Historical Open Interest
 
