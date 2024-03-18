@@ -8,14 +8,14 @@ the Chicago Board of Options Exchange (CBOE).
 Able to download options data for any ticker in 
 Nasdaq and NYSE.
 
-Data available:   
+# Data available:   
 Intraday Option Volume,
 Historical Implied Volatility,
 		    Historical Volume,
 			  Historical Open Interest
 
 
- Functions Available:
+# Functions Provided:
  
  Parser() 		- Class used to return parsed DataFrame
  
