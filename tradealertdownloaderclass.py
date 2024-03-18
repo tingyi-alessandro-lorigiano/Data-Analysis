@@ -1,6 +1,21 @@
 #! python3
 # Data Downloader.py --  A simple program used to download options data from
-#						 Trade Alert
+#                        the Chicago Board of Options Exchange (CBOE).
+#                        Able to download options data for any ticker in 
+#                        Nasdaq and NYSE.
+#                        Data available: Intraday Option Volume,
+#					 Historical Implied Volatility,
+#					 Historical Volume,
+#					 Historical Open Interest
+#
+# Methods Available:
+# 	closestTradingDate() 	- returns closest trading date
+#	listOfDatesToCurrent() 	- returns a list of trading dates until present from (USER INPUT)
+# 	Parser() 		- Class used to return parsed DataFrame
+#	Data() 			- Class used to download data and categorize 
+#	ex. Class usage:
+#	Data("SPY").update(chart="intraday_volume", date = closestTradingDate(), amount = 1, skip_check = False)
+#	This will download only the latest trading date's intraday options volume, and will check if another file already exists.
 
 
 print("Hello. I won't be printing the files that already exist. \nIf you want to turn this feature on, \ngo to check_file_exists function and 'enable' it.")	
