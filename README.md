@@ -25,6 +25,8 @@ closestTradingDate() 	- returns closest trading date
   
 listOfDatesToCurrent() 	- returns a list of trading dates until present from (USER INPUT)
 
+# Usage:
+
 ex. Class usage:
 
 	Data("SPY").update(chart="intraday_volume", date = closestTradingDate(), amount = 1, skip_check = False)
