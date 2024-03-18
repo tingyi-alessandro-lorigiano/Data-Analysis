@@ -4,6 +4,7 @@ In this folder there is (1) file that allows you to download options data from t
 
 A simple program used to download options data from
 the Chicago Board of Options Exchange (CBOE).
+
 Able to download options data for any ticker in 
 Nasdaq and NYSE.
 
