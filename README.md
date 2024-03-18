@@ -16,8 +16,8 @@ Historical Implied Volatility,
 
 
  Functions Available:
-  Parser() 		- Class used to return parsed DataFrame
-	Data() 			- Class used to download data and categorize 
+ Parser() 		- Class used to return parsed DataFrame
+ Data() 			- Class used to download data and categorize 
  	closestTradingDate() 	- returns closest trading date
 	listOfDatesToCurrent() 	- returns a list of trading dates until present from (USER INPUT)
 
