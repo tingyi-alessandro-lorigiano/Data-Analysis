@@ -1,8 +1,8 @@
 # Data-Analysis
 
-In this folder there is (1) file that allows you to download options data from the Chicago Board of Options Exchange (CBOE).
+In this folder the file "tradealertdownloaderclass.py" is the main file that allows you to download options data from the Chicago Board of Options Exchange (CBOE).
 
-A simple program used to download options data from
+This is a simple program used to download options data from
 the Chicago Board of Options Exchange (CBOE).
 
 Able to download options data for any ticker in 
