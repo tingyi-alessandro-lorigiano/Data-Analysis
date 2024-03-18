@@ -19,12 +19,12 @@ Historical Implied Volatility,
  
  Parser() 		- Class used to return parsed DataFrame
  
- Data() 			- Class used to download data and categorize 
+Data() 			- Class used to download data and categorize 
  
- 	closestTradingDate() 	- returns closest trading date
+closestTradingDate() 	- returns closest trading date
   
-	listOfDatesToCurrent() 	- returns a list of trading dates until present from (USER INPUT)
+listOfDatesToCurrent() 	- returns a list of trading dates until present from (USER INPUT)
 
-	ex. Class usage:
+ex. Class usage:
 	Data("SPY").update(chart="intraday_volume", date = closestTradingDate(), amount = 1, skip_check = False)
-	This will download only the latest trading date's intraday options volume, and will check if another file already exists.
+	# This will download only the latest trading date's intraday options volume, and will check if another file already exists.
